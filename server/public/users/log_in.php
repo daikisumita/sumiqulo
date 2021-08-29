@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<?php include_once __DIR__ . '/../common/_head.php' ?>
+<?php include_once __DIR__ . '/../../common/functions.php' ?>
+
+<body>
+    <?php include_once __DIR__ . '/../common/_header.php' ?>
+
+    <div class="wrapper user-wrapper">
+        <div class="form-main">
+            <h2 class="title">ログイン</h2>
+            <form action="session_create.php" method="post">
+                <div class="form-group">
+                    <label for="email">メールアドレス<span class="required">必須</span></label>
+                    <input type="email" id="email" name="user[email]" placeholder="メールアドレスを入力してください" required>
+                </div>
+                <div class="form-group">
+                    <label for="nick_name">ニックネーム<span class="required">必須</span></label>
+                    <input type="text" id="nick_name" name="user[nick_name]" placeholder="ニックネームを入力してください" required>
+                </div>
+                <div class="form-group">
+                    <input type="submit" class="btn" value="ログイン">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <?php include_once __DIR__ . '/../common/_footer.php' ?>
+</body>
+
+</html>
