@@ -4,3 +4,6 @@
 define('DSN', 'mysql:host=db;dbname=next_blog;charset=utf8');
 define('USER', 'blog_admin');
 define('PASSWORD', 'wf9i2bp-3f');
+define('MSG_EMAIL_REQUIRED', 'メールアドレスが未入力です');
+define('MSG_NAME_REQUIRED', 'ユーザー名が未入力です');
+define('MSG_PASSWORD_REQUIRED', 'パスワードが未入力です');
