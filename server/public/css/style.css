@@ -45,6 +45,12 @@ textarea:focus {
 .user-wrapper {
     width: 700px;
 }
+.center {
+    text-align: center;
+}
+.flex{
+    display: flex;
+}
 /* ヘッダー 
 -----------------------*/
 .header-wrapper {
@@ -56,6 +62,8 @@ textarea:focus {
     justify-content: space-between;
     align-items: center;
     height: 100px;
+    position: fixed;
+
 }
 .main-nav {
     display: flex;
@@ -91,6 +99,13 @@ textarea:focus {
     padding: 20px;
     box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
 }
+.form-main2 {
+    border-top: 15px rgb(188, 193, 196) solid;
+    padding: 20px;
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    width: 700px;
+}
+
 .form-group {
     margin-bottom: 20px;
 }

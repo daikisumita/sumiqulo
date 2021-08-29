@@ -2,6 +2,7 @@
 <html lang="ja">
 
 <?php include_once __DIR__ . '/../common/_head.php' ?>
+<?php include_once __DIR__ . '/../../common/functions.php' ?>
 
 <body>
     <?php include_once __DIR__ . '/../common/_header.php' ?>
